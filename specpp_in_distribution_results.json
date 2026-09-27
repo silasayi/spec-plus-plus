@@ -1,0 +1,39 @@
+{
+  "baseline": {
+    "absolute_size": 0.45666666666666667,
+    "relative_size": 0.31333333333333335,
+    "absolute_spatial": 0.12111111111111111,
+    "relative_spatial": 0.2875,
+    "existence": 0.58,
+    "count": 0.25222222222222224
+  },
+  "fine_tuned": {
+    "absolute_size": {
+      "train_acc": 0.9966666666666667,
+      "test_acc": 0.9533333333333334
+    },
+    "relative_size": {
+      "train_acc": 0.9991666666666666,
+      "test_acc": 0.98
+    },
+    "absolute_spatial": {
+      "train_acc": 0.9472222222222222,
+      "test_acc": 0.9333333333333333
+    },
+    "relative_spatial": {
+      "train_acc": 0.99125,
+      "test_acc": 0.9725
+    },
+    "existence": {
+      "train_acc": 0.96,
+      "test_acc": 0.785
+    },
+    "count": {
+      "train_acc": 0.7994444444444444,
+      "test_acc": 0.6955555555555556
+    }
+  },
+  "mean_baseline": 0.3351388888888889,
+  "mean_fine_tuned": 0.8866203703703704,
+  "note": "In-distribution fine-tuning on SPEC image2text.json; 80/20 split; no data leakage verified"
+}
