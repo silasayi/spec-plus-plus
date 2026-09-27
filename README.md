@@ -20,6 +20,13 @@ Understanding" (Discover Computing, under review).
 2. Install dependencies: `pip install open_clip_torch timm`
 3. Run `python train.py` (see comments for configuration).
 
+## Model weights
+
+The fine-tuned model weights (specpp_in_distribution_model.pt) are
+approximately 577 MB and exceed GitHub's per-file size limit. They are
+available on request from the corresponding author. To reproduce
+training from scratch, run train.py after downloading the SPEC dataset.
+
 ## Contact
 
 Silas Ayitey, Kwame Nkrumah University of Science and Technology,
